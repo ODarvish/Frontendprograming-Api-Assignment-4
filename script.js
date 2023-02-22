@@ -5,7 +5,7 @@ $(function () {
     let errorMsg = $(".error")
     let error
 
-    $(".search-box").click(function(event) {
+    $(".search-box").click(function(event) { // indent the contents
     event.preventDefault();
     getWeatherInfo();
     })
@@ -53,7 +53,7 @@ $(function () {
                     result.hide()
                 })
         }
-}
+} // Indent one level, same as line 58
 
 getWeatherInfo()
     
