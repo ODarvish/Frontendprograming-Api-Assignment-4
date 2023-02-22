@@ -6,8 +6,8 @@ $(function () {
     let error
 
     $(".search-box").click(function(event) { // indent the contents
-    event.preventDefault();
-    getWeatherInfo();
+        event.preventDefault();
+        getWeatherInfo();
     })
     
     function getWeatherInfo() {
@@ -53,9 +53,9 @@ $(function () {
                     result.hide()
                 })
         }
-} // Indent one level, same as line 58
+    } // Indent one level, same as line 58
 
-getWeatherInfo()
+    getWeatherInfo()
     
 });
 
